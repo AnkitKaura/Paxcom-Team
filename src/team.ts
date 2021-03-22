@@ -125,7 +125,7 @@ export const teamlist = [{
     "linkedin_url":"#!",
     "facebook_url":"#!",
     "twitter_url":"#!",
-    "image_name":"assets/img/team/2.jpg"
+    "image_name":"assets/img/team/pranav.jpg"
 },{
     "id":17,
     "name":"Rupinder Singh",
