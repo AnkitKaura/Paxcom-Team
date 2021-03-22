@@ -88,6 +88,14 @@ export const teamlist = [{
     "image_name":"assets/img/team/abhishek.jpg"
 },{
     "id":12,
+    "name":"Hivani Sharma",
+    "designation":"Quality Analyst Engineer",
+    "linkedin_url":"https://www.linkedin.com/in/hivani-sharma/",
+    "facebook_url":"#!",
+    "twitter_url":"#!",
+    "image_name":"assets/img/team/hivani.jpg"
+},{
+    "id":13,
     "name":"Tanmay Arora",
     "designation":"Sr. Business Analyst",
     "linkedin_url":"#!",
@@ -95,21 +103,13 @@ export const teamlist = [{
     "twitter_url":"#!",
     "image_name":"assets/img/team/tanmay.jpg"
 },{
-    "id":13,
+    "id":14,
     "name":"Arjun Singh",
     "designation":"Sr. Business Analyst",
     "linkedin_url":"#!",
     "facebook_url":"#!",
     "twitter_url":"#!",
     "image_name":"assets/img/team/arjun.jpg"
-},{
-    "id":14,
-    "name":"Hivani Sharma",
-    "designation":"Quality Analyst",
-    "linkedin_url":"#!",
-    "facebook_url":"#!",
-    "twitter_url":"#!",
-    "image_name":"assets/img/team/hivani.jpg"
 },{
     "id":15,
     "name":"Megham Garg",
@@ -122,7 +122,7 @@ export const teamlist = [{
     "id":16,
     "name":"Pranav Sharma",
     "designation":"Software Engineer Trainee",
-    "linkedin_url":"#!",
+    "linkedin_url":"https://www.linkedin.com/in/pranav-sharma-2383b2185/",
     "facebook_url":"#!",
     "twitter_url":"#!",
     "image_name":"assets/img/team/pranav.jpg"
