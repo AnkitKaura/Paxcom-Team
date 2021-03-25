@@ -35,8 +35,8 @@ export const teamlist = [{
     "name":"Ankit Kaura",
     "designation":"Software Engineer II",
     "linkedin_url":"https://www.linkedin.com/in/ankit-kaura-10360914a/",
-    "facebook_url":"#!",
-    "twitter_url":"#!",
+    "facebook_url":"https://www.facebook.com/ankit.kaura.94",
+    "twitter_url":"https://twitter.com/dwayneankit",
     "image_name":"assets/img/team/ankit_2.jpeg"
 },{
     "id":6,
