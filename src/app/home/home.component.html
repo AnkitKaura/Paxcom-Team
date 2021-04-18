@@ -252,14 +252,16 @@ Relevant keywords for your products can increase your sales rank,impact search r
         </div>
          <div class="row" >
 
-            <div class="col-lg-4" *ngFor="let team of teamArr">
+            <div class="col-lg-4" *ngFor="let team of teamArr" (click)="openOverlay(team)">
                 <div class="team-member">
+                <a class="portfolio-link" data-toggle="modal"  href="#teamMember">
                     <img class="mx-auto rounded-circle" [src]="team.image_name" alt="" />
                     <h4>{{team.name}}</h4>
                     <p class="text-muted">{{team.designation}}</p>
                     <a class="btn btn-dark btn-social mx-2" [href]="team.twitter_url"  target="_blank"><i class="fab fa-twitter"></i></a>
                     <a class="btn btn-dark btn-social mx-2" [href]="team.facebook_url" target="_blank"><i class="fab fa-facebook-f"></i></a>
                     <a class="btn btn-dark btn-social mx-2" [href]="team.linkedin_url" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+                </a>
                 </div>
             </div>
           
@@ -319,6 +321,29 @@ Relevant keywords for your products can increase your sales rank,impact search r
         </div>
     </div>
 </footer>
+<!-- Modal for team members -->
+<div class="portfolio-modal modal fade" id="teamMember" tabindex="-1" role="dialog" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal"><img src="assets/img/close-icon.svg" alt="Close modal" /></div>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <!-- <span md-title  class="text-uppercase">Hello I'm {{currentTeamMember.name}}!</span> -->
+                    <div class="col-lg-8">
+                        <div class="modal-body">
+                            <h4 class="text-uppercase">{{currentTeamMember.name}}</h4>
+                            <img class="img-fluid d-block mx-auto img-thumbnail" [src]="currentTeamMember.image_name" alt="" />
+                            <button class="btn btn-primary" data-dismiss="modal" type="button">
+                                <i class="fas fa-times mr-1"></i>
+                                Close 
+                            </button>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 <!-- Portfolio Modals-->
 <!-- Modal 1-->
 <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
